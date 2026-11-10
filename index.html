@@ -48,9 +48,9 @@ html[data-theme="dark"] { --paper: #1c1916; --ink: #f0e9df; --ink-soft: #c2b6a6;
 body { margin: 0; background: var(--paper); color: var(--ink); font-family: "EB Garamond", "Iowan Old Style", Palatino, Georgia, serif; }
 main { width: min(32rem, calc(100% - 2.5rem)); margin: 0 auto; min-height: 100vh; min-height: 100dvh; display: flex; flex-direction: column; justify-content: center; padding: 4rem 0 2.5rem; }
 .home { text-align: center; margin-bottom: 3.5rem; }
-.waves { display: block; width: 3.4rem; margin: 0 auto 1.6rem; fill: none; stroke: var(--mark); stroke-width: 1.6; stroke-linecap: round; }
+.waves { display: block; width: 3rem; margin: 1.8rem auto .9rem; fill: none; stroke: var(--mark); stroke-width: 1.6; stroke-linecap: round; }
 h1 { margin: 0; font-size: 2.6rem; font-weight: 500; letter-spacing: -0.01em; }
-.motto { margin: .4rem 0 0; color: var(--ink-soft); font-style: italic; font-size: 1.1rem; }
+.motto { margin: 0; color: var(--ink-soft); font-style: italic; font-size: 1.1rem; }
 .books { border-top: 1px solid var(--line); }
 .book { display: block; padding: 1.4rem 0; border-bottom: 1px solid var(--line); color: var(--ink); text-decoration: none; }
 .book:hover .book-title { color: var(--accent); }
@@ -65,12 +65,12 @@ footer { margin-top: auto; padding-top: 3rem; text-align: center; color: var(--i
 <body>
 <main>
   <header class="home">
+    <h1>Vignan</h1>
     <svg class="waves" viewBox="0 0 48 30" aria-hidden="true" focusable="false">
         <path d="M3 6q10.5-8 21 0t21 0"/>
         <path d="M3 15q10.5-8 21 0t21 0"/>
         <path d="M3 24q10.5-8 21 0t21 0"/>
       </svg>
-    <h1>Vignan</h1>
     <p class="motto">the way of water</p>
   </header>
   <nav class="books" aria-label="Stories">
